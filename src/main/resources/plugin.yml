@@ -1,0 +1,22 @@
+name: Wan117
+version: ${project.version}
+main: wantairan.wan117.Wan117
+api-version: 1.17
+commands:
+  hello:
+    description: 波动率微笑的欢迎指令
+  add:
+    description: 相加指令
+  gonggao:
+    description: 发送服务器公告
+  config:
+    description: 读取配置文件
+  change:
+    description: 修改配置文件
+  health:
+    description: 查看玩家血量
+
+permissions:
+  commands.gonggao:
+    description: 公告
+    default: op;
