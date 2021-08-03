@@ -24,5 +24,6 @@ public final class Wan117 extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
         System.out.println("波动率微笑的API已卸载");
+        System.out.println("哈哈哈哈你怎么又");
     }
 }
